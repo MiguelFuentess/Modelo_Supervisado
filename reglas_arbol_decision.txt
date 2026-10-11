@@ -1,0 +1,19 @@
+|--- es_hora_pico <= 0.50
+|   |--- tiempo_programado_min <= 7.50
+|   |   |--- es_fin_de_semana <= 0.50
+|   |   |   |--- hora_dia <= 9.50
+|   |   |   |   |--- class: 0
+|   |   |   |--- hora_dia >  9.50
+|   |   |   |   |--- class: 0
+|   |   |--- es_fin_de_semana >  0.50
+|   |   |   |--- class: 0
+|   |--- tiempo_programado_min >  7.50
+|   |   |--- numero_transbordos <= 0.50
+|   |   |   |--- dia_semana_Viernes <= 0.50
+|   |   |   |   |--- class: 0
+|   |   |   |--- dia_semana_Viernes >  0.50
+|   |   |   |   |--- class: 0
+|   |   |--- numero_transbordos >  0.50
+|   |   |   |--- class: 0
+|--- es_hora_pico >  0.50
+|   |--- class: 1
